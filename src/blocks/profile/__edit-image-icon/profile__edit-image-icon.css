@@ -1,0 +1,15 @@
+.profile__edit-image-icon {
+    position: absolute;
+    background-image: url("../../../images/edit-icon.svg");
+    width: 26px;
+    height: 26px;
+    left: 47px;
+    top: 47px;
+    background-size: cover;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.profile__image:hover .profile__edit-image-icon {
+    opacity: 1;
+}
